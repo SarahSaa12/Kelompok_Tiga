@@ -1,0 +1,36 @@
+/*Tampilan Halaman CRUD*/
+body{
+    background-color: #B9EDDD;
+}
+.crud{
+    margin-top: 50px;
+    margin-left: 27%;
+    margin-bottom: 10%;
+    width: 600px;
+    height: 640px;
+}
+.pull-left{
+    text-align: center;
+}
+.form-control{
+    margin-top: 10px;
+}
+.form-group{
+    margin-top: 10px;
+}
+
+/*Tabel tampilan Detail*/
+.tabel, td, th {
+    border: 1px solid;
+    height: 50px;
+}
+.tabel td{
+    padding-left: 15px;
+    font-weight: bold;
+}
+.tabel tbody tr:nth-child(odd) {
+    background-color: #79E0EE; 
+}
+.tabel tbody tr:nth-child(even) {
+    background-color: #A7ECEE;
+}

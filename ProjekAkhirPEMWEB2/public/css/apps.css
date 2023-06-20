@@ -1,0 +1,19 @@
+.container{
+    margin-left: 200px;
+    width: 1050px
+}
+
+/* Halaman Landing Page */
+.img-welcome{
+    height: 400px;
+}
+.teks-welcome{
+    padding-bottom: 160px;
+    width: 550px;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.table-welcome{
+    border: 10px white;
+}

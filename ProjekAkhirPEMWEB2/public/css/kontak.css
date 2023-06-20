@@ -1,0 +1,27 @@
+.div-2{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    column-gap: 50px;
+    width: 400px;
+}
+
+.grid-item{
+    text-align: center;
+    height: 40px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: #ede6dd;
+    margin-top: 30px;
+}
+.grid{
+    padding-top: 6px;
+}
+.satu{
+    font-size: 60px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.dua{
+    font-size: 20px;
+    text-align: center;
+}

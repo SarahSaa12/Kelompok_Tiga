@@ -1,0 +1,55 @@
+.lg{
+    padding-top: 120px;
+    font-weight: bold;
+}
+.rg{
+    padding-top: 100px;
+    font-weight: bold;
+}
+.kotak {
+    box-shadow: 2px 2px 2px #439A97;
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+}
+.flex-container {
+    display: flex;
+}
+.flex-container > div {
+    margin-top: 100px;
+    background-color: #CBEDD5;
+    margin-left: 270px;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px; 
+}
+#pil{
+    padding: 20px 20px;
+    text-align: center;
+    color: #439A97;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.img-guru{
+    width: 200px;
+}
+.img-siswa{
+    width: 200px;
+}
+.guru{
+    margin-left: 700px;
+}
+.siswa{
+    margin-left: 700px;
+}
+.sidebar2{
+    background-color: #62b6b7;
+    height: 10000px;
+    position: fixed;
+}
+.nav-link{
+    color: black;
+}
+.header{
+    background-color: #439a97;
+}

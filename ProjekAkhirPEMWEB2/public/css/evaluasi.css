@@ -1,0 +1,287 @@
+/* Halaman Evaluasi */
+
+/* .evaluasi{
+    width: 1000px;
+} */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Style header */
+.header {
+    background-color: black;
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+  
+.ul-head {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.ul-head .li-head{
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#hik {
+  padding-left: 1000px;
+}
+
+.li-head a {
+  display: block;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: gray;
+}
+
+/* Style the footer */
+.footer {
+    background-color: black;
+    padding: 1px;
+    text-align: center;
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
+
+.grid{
+    margin: 0px 70px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 120px;
+}
+
+.grid h3{
+    text-align: center;
+}
+
+/* Latihan login */
+#login{
+    padding: 80px;
+    padding-left: 120px;
+}
+
+.Latihan_log{
+    margin: 40px;
+    background-color:#87CBB9;
+    height: 470px;
+    padding: 15px 15px 15px 15px;
+    overflow: auto;
+    text-align: justify;
+    border-radius: 20px;
+    line-height: 1.5;
+    margin-top: 120px;
+}
+
+.kontainer{
+    height: 300px;
+    width: 500px;
+    text-align: justify;
+    border: 3px solid #7c7c7c;
+    border-radius: 20px;
+    padding: 30px;
+    padding-right: 50px;
+    padding-top: 50px;
+    background-color: #b2b2b2;
+}
+
+#submit{
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 30px;
+    width: 60px;
+}
+/* Latihan soal */
+.grid{
+    gap: 10px;
+}
+
+.kontainer2{
+    height: 300px;
+    width: 300px;
+    text-align: justify;
+    border: 3px solid #0EA293;
+    border-radius: 20px;
+    padding: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: #B9EDDD;
+}
+
+.kontainer3{
+    height: 300px;
+    width: 750px;
+    text-align: justify;
+    border: 3px solid #0EA293;
+    border-radius: 20px;
+    padding: 30px;
+    padding-right: 50px;
+    padding-top: 20px;
+    background-color: #B9EDDD;
+}
+
+.nomor_soal{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.nomor_soal button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    background-color: #87CBB9;
+}
+
+#soal_1{
+    display: box;
+}
+
+#soal_2{
+    display: none;
+}
+#soal_3{
+    display: none;
+}
+
+#soal_4{
+    display: none;
+}
+#soal_5{
+    display: none;
+}
+
+#soal_6{
+    display: none;
+}
+
+#soal_7{
+    display: none;
+}
+
+#soal_8{
+    display: none;
+}
+
+#soal_9{
+    display: none;
+}
+
+#soal_10{
+    display: none;
+}
+
+#hasil{
+    display: none;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.hasil{
+    margin-left: 100px;
+}
+
+.kembali{
+    margin-top: 20px;
+    margin-left: 150px;
+    height: 35px;
+    width: 200px;
+    background-color: #87CBB9;
+}
+
+.kembali a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.kontainer4{
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align: justify;
+    border: 3px solid #7c7c7c;
+    border-radius: 20px ;
+    background-color: #b2b2b2;  
+}
+
+#benar{
+    margin: 1px;
+    text-align: left;
+    padding: 3px;
+    padding-left: 15px;
+    height: 35px;
+    width: 300px;
+    background-color: #87CBB9;
+}
+
+#salah{
+    margin: 1px;
+    text-align: left;
+    padding: 3px;
+    padding-left: 15px;
+    height: 30px;
+    width: 300px;
+    background-color: #87CBB9;    
+}
+
+#skor{
+    margin: 1px;
+    text-align: left;
+    padding: 3px;
+    padding-left: 15px;
+    height: 30px;
+    width: 300px;
+    background-color: #87CBB9;
+}
+
+.btn{
+    height: 30px;
+    width: 200px;
+    margin: 30px;
+    font-weight: bold;
+}
+
+.sublat{
+    text-decoration: none;
+}
+
+/* visited link */
+.sublat:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+/* mouse over link */
+.sublat:hover {
+  color: gray;
+}
+
+.sublat:link{
+    color: black;
+}
+
+#kembali{
+    width: 130px;
+}
+#kembali a{
+    color: black;
+    text-decoration: none;
+}
